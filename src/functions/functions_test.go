@@ -1,7 +1,10 @@
 package functions_test
 
-import "testing"
-import . "github.com/pedromsmoreira/learning-go/src/functions"
+import (
+	"testing"
+
+	. "github.com/pedromsmoreira/learning-go/src/functions"
+)
 
 func TestSum(t *testing.T) {
 	expected := 2
