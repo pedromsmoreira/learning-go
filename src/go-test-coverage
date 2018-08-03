@@ -4,6 +4,9 @@ What to do.
 
 go test -cover
 
+# more details in tests
+go test -v
+
 1. go test -coverprofile=coverage.out
 2. go tool cover -func=coverage.out
 3. go tool cover -html=coverage.out
