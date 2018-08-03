@@ -19,3 +19,17 @@ func TestSum3(t *testing.T) {
 		t.Errorf("Sum3 was incorrect, got: %d, expected: %d", total, expected)
 	}
 }
+
+func TestMultipleReturn(t *testing.T) {
+	expectedSum, expectedSub := 2, 0
+
+	totalSum, totalSub := multipleReturn(1, 1)
+
+	if totalSum != expectedSum {
+		t.Errorf("totalSum is incorrect. Got: %d, Expected: %d", totalSum, expectedSum)
+	}
+
+	if totalSub != expectedSub {
+		t.Errorf("totalSub is incorrect. Got: %d, Expected: %d", totalSub, expectedSub)
+	}
+}
