@@ -3,3 +3,10 @@ What to do.
 1. go test -coverprofile=coverage.out
 2. go tool cover -func=coverage.out
 3. go tool cover -html=coverage.out
+
+# HeatMaps
+4. go test -covermode=count -coverprofile=count.out fmt
+5. go tool cover -func=count.out
+
+# Create file 
+5. go tool cover -html=count.out
