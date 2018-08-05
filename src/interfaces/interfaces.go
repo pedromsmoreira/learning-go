@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"math"
+
+	"github.com/pedromsmoreira/learning-go/src/animals"
 )
 
 // Interfaces are named collections of method signatures.
@@ -58,4 +60,10 @@ func main() {
 	// so we can use instances of these structs as arguments to measure.
 	measure(r)
 	measure(c)
+
+	animals := []animals.Animal{animals.Dog{Name: "doggy"}, &animals.Bird{Name: "birdy"}}
+
+	for _, animal := range animals {
+		fmt.Printf("Animal Name: %s is speaking: %s \n", animal.GetName(), animal.Speak())
+	}
 }
