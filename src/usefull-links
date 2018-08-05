@@ -4,6 +4,7 @@ https://github.com/Microsoft/vscode-go/blob/master/snippets/go.json
 
 # interfaces
 http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
+https://research.swtch.com/interfaces
 
 # error handling
 https://blog.golang.org/error-handling-and-go
