@@ -10,3 +10,6 @@ hello-world	hello-world.go
 We can then execute the built binary directly.
 $ ./hello-world
 hello world
+
+Show execution time with go run
+$ time go run src/worker-pools/worker-pools.go
