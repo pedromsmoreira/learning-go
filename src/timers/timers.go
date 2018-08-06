@@ -30,9 +30,8 @@ func main() {
 		<-timer2.C
 		fmt.Println("Timer 2 expired")
 	}()
-	stop2 := timer2.Stop()
-	if stop2 {
+
+	if timer2.Stop() {
 		fmt.Println("Timer 2 stopped")
 	}
-
 }
