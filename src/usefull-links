@@ -8,3 +8,7 @@ https://research.swtch.com/interfaces
 
 # error handling
 https://blog.golang.org/error-handling-and-go
+
+# json
+https://blog.golang.org/json-and-go
+https://golang.org/pkg/encoding/json/
